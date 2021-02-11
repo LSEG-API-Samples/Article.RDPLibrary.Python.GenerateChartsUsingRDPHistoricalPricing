@@ -1,4 +1,4 @@
-# Generate charts for trading analysis using RDP Historical Pricing data
+# Generate charts for fundamental trading analysis using RDP Historical Pricing data
 
 ## Overview
 
@@ -502,11 +502,12 @@ mpf.plot(dfPlot,type='renko',style='charles',renko_params=dict(brick_size=4))
 
 ![chart10](images/chart10.png)
 
+
 <!-- #region -->
 
 ## Summary
 
-This article explains RDP users' alternate choices to retrieve such kind of the End of Day price or intraday data from the Refinitiv Data Platform. This article provides a sample code to use RDP Library for python to retrieve the RDP Historical Pricing service's intraday data. And then show how to utilize the data with the 3rd party library such as the mplfinance to plot charts like the CandleStick, OHLC, and Renko chart for stock price technical analysis. Using the RDP Library, users can specify a different kind of interval and adjustment behavior to retrieve more specific data and visualize the data on various charts. They can then use the charts to identify trading opportunities in price trends and patterns seen on charts. 
+This article explains RDP users' alternate choices to retrieve such kind of the End of Day price or intraday data from the Refinitiv Data Platform. This article provides a sample code to use RDP Library for python to retrieve the RDP Historical Pricing service's intraday data. And then show how to utilize the data with the 3rd party library such as the mplfinance to plot charts like the CandleStick, OHLC, and Renko chart for stock price technical analysis. Using the RDP Library, users can specify a different kind of interval and adjustment behavior to retrieve more specific data and visualize the data on various charts. They can then use the charts to identify trading opportunities in price trends and patterns seen on charts.
 
 ## References
 
