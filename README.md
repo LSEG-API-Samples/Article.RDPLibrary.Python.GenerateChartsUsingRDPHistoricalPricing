@@ -486,7 +486,7 @@ mpf.plot(dfPlot.loc[:str(datetime.date.today()),:],type='candle',style='charles'
 
 Zoom the chart.
 
-![chart9zoom](images/chart9_1.png)
+![chart9zoom](images/chart9_1.PNG)
 
 You can also calculate the moving average from your own method or algorithm using the original data from the dataframe and then add a subplot to the CandleStick charts by using add plot like the previous sample of OHLC charts.
 
